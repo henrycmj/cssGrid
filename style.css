@@ -22,9 +22,14 @@ body{
     padding: 20px;
     border: 1px solid #777
 }
+
+/* this is the first DIV grid box inside the parent div*/
 .grid-container > div:nth-child(1){
+    /* starting grid point is 1 and will take up the length of 2 grid boxes */
     grid-column: 1 / span 2;
 }
+
+/* seconf DIV grid box */
 .grid-container > div:nth-child(2) {
     grid-column: span 3;
 }
